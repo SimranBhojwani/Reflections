@@ -1,0 +1,38 @@
+how do fc help to find bugs in my files?
+	fc command goes like this
+	FC game_old.js and game_new.js
+	//if you want to compare these two files
+	so it will show line wise the changes made in new file by comparing it with the old file.
+	it shows what was in old file first
+	then same section in new file
+	this becomes easier to compare
+	bugs are found quickly.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	we programmers have lot complex code to write and sometimes after writing one code we might get another new better logic to make our program more efficient (that would take less time to execute and generate accurate results also)
+	so we make changes but then it happens that the logic goes wrong and you want to your older version back 
+	so easy access to entire histroy of file will be helpful in knowing what were the changes made and when.and from that we can easily resume our work from that version if we want. 
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	having previous versions handy makes helps us to find the bugs easily as we can compare them and we know come to know the we have made.as we know the bugs things become more efficient as we save lot of time and work more .
+	also if we have previous versions saved,it can be used like some basic structure is same for many files so we can just copy paste the contents of previous versions.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	pros of manual saving
+		first of i like the feature of git t write message for every commit so by seeing the version we can tell what are the changes made and in what state the program is in this version.
+		we can make commit when we want .coz automatic saving doesnt show what are the changes saved and what are not.
+	cons of manual saving
+		the one biggest con is if you for to commit the changes made you will suffer alot.
+		suppose that you coded for like a day and at the end you forgot to commit the changes made by you and next day when yousit to code you have to start all over again!!!
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	as mentioned earlier git has a feature to add message to every commit we made.so this means every commit has a logical change made and from commit we come to know in what state our program is (in this case game.js will tell till where our game is developed) so for any logical addition or deletion can affect more than one file in the repository it is better to save all of them in every commit so our program does not go in inconsistent state ever.
+How can you use the commands git log and git diff to view the history of files?
+	git log (press enter)--it will show you the id of every commit who made that commit at what time commit was made and commit msg
+	git diff (id of previous commit) (id of commit just above that)--to get the difference between all files in both commit. 
+How might using version control make you more confident to make changes that could break something?
+	we can switch to previous version before breaking (ie. before error was introducded) by checking out the commit id.
+Now that you have your workspace set up, what do you want to try using Git for?
+	i want to use git for all my upcomming projects.
+
+
+
+
+
+
