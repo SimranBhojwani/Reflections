@@ -2,7 +2,40 @@ What happens when you initialize a repository? Why do you need to do it?
 	when we initialize the git repository it maintains a hidden file that tracks down the changes that were made in the file and also keeps records of all the commits that were made.
 	we need to do this for using git version control.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-	repository has all the files
+	repository has all the commits
 	working directory has the files on which we are working in current project
 	staging area has the files in which changes were made and are ready to be commited as a 
 	single logical commit.
+How can you use the staging area to make sure you have one commit per logical change?
+	when we make a change it is not necessary that all the files are affected	
+	so i will make use of staging area to add the files that are affected and commit 
+	them in a single logical commit
+	and for such thing if i want to undo that commmit i will know exactly what is undone
+	and in which file.
+	create branch for feature that u are working on 
+	in that case if you get bored with one feature you can switch to other feature by 
+	switching to branch of that feature
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+	we made the code but we want to make some changes just to experiment if it works 
+	as it is just an experiment i dont want my master ie. main files to be affected 
+	so when anyone asks me what is the status if my file i will be able to show them the 
+	working version as all experiments are done in the branch that i created
+	branch use
+What is the result of merging two branches together?
+ Why do we represent it in the diagram the way we do?
+	if there is branch 1 and branch 2 and we merge them together (ie. merge branch 2 in 1
+	suppose) then we will get all the changes made in branch 2 included in branch 1
+	we represent in the dia as separate branches combined together because they are remote 
+	commits that are not made in branch 1.
+	case 1 if exp is successful
+	i will simply merge them
+	case 2 if unsuccessful
+	i will simply checkout to the master branch
+How do the diagrams help you visualize the branch structure?
+	diagrams are self explanatory that u have how many branches what are the commits in each of them parents of them
+	(previous commit is the parent of new commit) which are unreachable commits (commits that don't show in git log)
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	pros you know what that commit does include as you add msg with it
+	cons you should not forget to commit the changes burden to remember to commit
+	
