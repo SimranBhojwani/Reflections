@@ -2,3 +2,14 @@ When would you want to use a remote repository rather than keeping all your work
   we can't carry laptop /pc all the time so what if we need our files at our office or college where we dont have our local 
   computer so to access files at that time we need our files to be uploaded to remote repository from where we can access all the
   files and no need to carry your files explicitly in pendrive. 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	because if we are working on a feature that already has many commits and needs some more commits to function completely
+	we would want to commit to github repository (which is public ) only when it is ready completely.
+	so automatic commit is not required!
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	fork - to get the code from one's github to yours
+	clone - to get the code from github
+	branch - to get the code to another branch on your local machine.
+	fork to get the code of my friend from github to my github
+	clone to get the code from github account to my local machine
+	branch when i have the code in local machine and i want to do some experiments on it without affecting the master branch
