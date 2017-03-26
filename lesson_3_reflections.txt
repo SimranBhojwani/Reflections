@@ -13,3 +13,11 @@ Describe the differences between forks, clones, and branches. When would you use
 	fork to get the code of my friend from github to my github
 	clone to get the code from github account to my local machine
 	branch when i have the code in local machine and i want to do some experiments on it without affecting the master branch
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	if we know the last known stage of the remote locally we will know that our files are up-to- date with the github file and 
+	we can use any of the files further to proceed because at the end we know the last state and we can pull it or fetch it merge with solving conflicts if any and bring them to same state.
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	i can collaborate by asking my friend to mail the files make changes to it or see what changes are done
+	then save the final version and paste the final files into mailbox and mail it to my friend.
+	it would be diffcult coz every time i made changes i had to upload them or i want to see changes done by my friend i have to ask her to mail me and download it .it would be dowloaded and files(1).txt as it keeps the record that no to filea have same name so i had to change name of the file or store it in different directory to run it and see what changes are done then do my changes save it and again mail my friend.
+	very hard and time consuming.
