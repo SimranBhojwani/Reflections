@@ -21,3 +21,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	then save the final version and paste the final files into mailbox and mail it to my friend.
 	it would be diffcult coz every time i made changes i had to upload them or i want to see changes done by my friend i have to ask her to mail me and download it .it would be dowloaded and files(1).txt as it keeps the record that no to filea have same name so i had to change name of the file or store it in different directory to run it and see what changes are done then do my changes save it and again mail my friend.
 	very hard and time consuming.
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	when i have many people collaborating or working on a single project i cannot simply make changes in to master as there may be people having different opinions about the changes being made so creating a separate branch would be better in this case.
+	and then pull requests that to them and get their feedback before merging it.
+	if we are working alone then making changes in master branch is preferrable as we dont want to do the etc work of creating the branch and then merging it with the master again and udating the local and github files
